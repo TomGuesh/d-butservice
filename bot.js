@@ -10,8 +10,7 @@ const client = new Client({
 
 // ... Votre code ici
 
-client.login('MTE4OTMyMzUzMTY4MzY0NzUxOA.G2i0mW.BGkMlDxE604grVgxeT0SA7eRDoVTFu6AATOx7w');
-
+client.login('MTE4OTMyMzUzMTY4MzY0NzUxOA.GCVRYW.T_oxDfALM2kvvyTu3OOPvrD0LldvC1KCgogK4c');
 
 client.on('messageCreate', (message) => {
   if (message.content.toLowerCase() === '!priseservice') {
@@ -45,6 +44,3 @@ function msToTime(duration) {
 
   return `${hours} heures, ${minutes} minutes et ${seconds} secondes`;
 }
-
-// Remplacez 'YOUR_BOT_TOKEN' par le token de votre bot Discord
-client.login('MTE4OTMyMzUzMTY4MzY0NzUxOA.G2i0mW.BGkMlDxE604grVgxeT0SA7eRDoVTFu6AATOx7w');
